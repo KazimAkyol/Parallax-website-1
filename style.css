@@ -9,6 +9,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    opacity: 0.7;
 }
 
 .first-page{
@@ -35,4 +36,52 @@
 
 .container{
     text-align: center;
+    position: relative;
+    top: 45%;
+}
+
+.header{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: black;
+    letter-spacing: 0.5rem;
+
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.style1{
+    text-transform: uppercase;
+    outline: 0.5rem inset purple;
+    outline-offset: 0.6rem;
+    padding: 2rem;
+}
+
+.style2{
+    text-transform: capitalize;
+    outline: 0.5rem inset purple;
+    outline-offset: 0.2rem;
+    padding: 0.7rem;
+}
+
+.logo{
+    width: 20rem;
+}
+
+.par{
+    text-align: center;
+    padding:7rem 5rem;
+    line-height: 1.8rem;
+}
+
+.par-light{
+    background-color: rgb(241, 241, 241);
+    color: #666;
+}
+
+.par-dark{
+    background-color: #282e34;
+    color: #ddd;
+
 }
