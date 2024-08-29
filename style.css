@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.total{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.first-page{
+    background-image: url(./images/bg.jpg);
+    height: 100vh;
+}
+
+.second-page{
+    background-image: url(./images/bg2.jpg);
+    height: 100vh;
+}
+.third-page{
+    background-image: url(./images/bg3.jpg);
+    height: 100vh;
+}
+.fourth-page{
+    background-image: url(./images/bg4.jpg);
+    height: 100vh;
+}
+.fifth-page{
+    background-image: url(./images/bg.jpg);
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+}
